@@ -29,7 +29,7 @@ public class Main {
 					" | (_| (_) |  _|  _|  __/ (_| |  __/ | | | ||  __/\r\n" + 
 					"  \\___\\___/|_| |_|  \\___|\\__,_|\\___|_| |_|\\__\\___|");
 			
-			System.out.println("Desea agregar una bebida?\n");			
+			System.out.println("Desea agregar una bebida?");			
 			
 			if (sc.hasNextBoolean()) {					
 				this.agregarProducto = sc.nextBoolean();
@@ -45,7 +45,7 @@ public class Main {
 	}
 	
 	public void mostrarBienvenida() {
-		System.out.println("Escoja la bebida 1:cafe, 2:Te, 3:Frapuchino");		
+		System.out.println("Escoja la bebida 1: cafe, 2: Te, 3: Frapuchino ");		
 		if (sc.hasNextInt()) {
 			int opt = sc.nextInt();
 			do {
